@@ -1,0 +1,19 @@
+.container h1{
+    text-align: center;
+}
+.card-text{
+    color: red;
+}
+.card-titlem{
+    color: red;
+}
+.card-titlep{
+    color: yellow;
+}
+ h3 {
+    text-align: center;
+    
+}
+.container-fluid{
+    border-radius: 10px;
+}
