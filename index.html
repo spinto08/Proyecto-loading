@@ -27,7 +27,7 @@
   </nav>
   <div class="container">
   <h1>VENTA DE FRUTAS SABROSAS Y DELICIOSA</h1>
-  <h2 id="subtitulo"></h2>
+  <h2 id="subtitulo"></h>
   <div class="container my-5">
     <div class="card mb-3" >
     <div class="row g-0">
@@ -107,15 +107,10 @@
      
      <script>
 
-      //1. Crear un elemento
       var elemento =document.createElement("h2");
-       //2. Crear un nodo de texto
        var contenido = document.createTextNode("Vendemos los manjares que nos vrinda la naturaleza");
-       //3. Añadir el nodo del texto al elemento
        elemento.appendChild(contenido);
-       //4. Agregar atributos al elemento
        elemento.setAttribute("align", "center");
-       //5. Agregar el elemento al documento
        document.getElementById("subtitulo").appendChild(elemento);
        
         
